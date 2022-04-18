@@ -9,5 +9,5 @@ stage('Build Stage') {
 }
 
 stage('Push Stage') {
-    echo "---Push Stage---"
+    make main.o
 }
