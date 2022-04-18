@@ -9,5 +9,5 @@ stage('Build Stage') {
 }
 
 stage('Push Stage') {
-    make main.o
+    sh "make main.o"
 }
